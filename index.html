@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="upper">
+            <div class="upper-inner">
+                <div style="color:white;font-size:30px; font-weight:bold; margin-bottom: 30px;">
+                    T O D O                </div>
+                <form action="" class="inputform">
+                    <div style="display: flex; align-items: center; padding: 2px; background-color: rgb(80, 79, 79); border-radius: 5px;">
+                        <div id="radio">
+                            <input type="checkbox" name="" id="checkBox">
+                        </div>
+                        <input type="text" name="" id="new-todo-input" placeholder="Create a new todo">
+                        <label for="checkBox" class="plus-icon">+</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="lower">
+            <div class="lower-inner">
+                <div class="container">
+                    <ul class="todos-list" id="todoList">
+                    </ul>
+                </div>
+                <div class="bottom-bar">
+                    <div class="count-container">
+                        <p class="left-items"><span id="count">0</span> tasks left</p>
+                    </div>
+                    <div class="filter-container">
+                        <a href="#" class="function-btns all">All</a>
+                        <a href="#" class="function-btns Active">Active</a>
+                        <a href="#" class="function-btns completed">Completed</a>
+                    </div>
+                    <a href="#" class="clear-completed-btn">Clear Completed</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
