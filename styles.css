@@ -19,7 +19,7 @@ body{
 }
 
 .upper{
-  background-image: linear-gradient(to right, blue, violet);
+  background-image: url(images/bg-desktop-light.jpg);
   width: 100vw;
   height: 30vh;
   display: flex;
